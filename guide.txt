@@ -1,0 +1,20 @@
+Linux Multi-Threaded Downloader Project
+
+Huong dan cai dat va chay du an:
+
+1. Cac tep ma nguon bao gom:
+   - downloader.cpp: Backend Daemon C++
+   - app.py: Web Frontend Python Flask
+   - Makefile: Config bien dich bang g++ -lpthread
+
+2. Bien dich Backend C++:
+   make
+
+3. Chay Web Frontend Python:
+   python3 app.py
+
+4. Chay Backend C++ Daemon:
+   ./downloader
+
+5. Truy cap Web Browser:
+   http://localhost:5000
